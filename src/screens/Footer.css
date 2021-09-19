@@ -1,0 +1,55 @@
+.footer{
+    height: 300px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    border-top: 8px solid rgb(78, 75, 75);
+    padding-top: 30px;
+    margin: 80px 0px;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
+.footer>h3,select{
+    margin-left: 35px;
+    font-weight: 400;
+    font-size: 16px;
+}
+select{
+    width: 15%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+    appearance: none;
+    position: relative;
+    outline: none;
+    border-radius: 3px;
+}
+
+.footer_links{
+    display: flex;
+}
+.footer_links>div{
+   
+    width: 100%;
+}
+.footer_links>div>ul{
+   
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   
+}
+.footer_links>div>ul>li{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer>p{
+    font-size: 12px;
+    margin-left: 35px;
+}
+.footer_links>div>ul>li:hover , select:hover {
+    color: white;
+    cursor: pointer;
+}
